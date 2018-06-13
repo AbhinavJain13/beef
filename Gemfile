@@ -7,11 +7,11 @@
 #
 
 gem 'eventmachine'
-gem 'thin'
-gem 'sinatra'
-gem 'rack'
+gem 'thin', '>= 1.6.2'
+gem 'sinatra', '>= 2.0.2'
+gem 'rack', '>= 1.6.0'
 gem 'em-websocket', '~> 0.3.6' # WebSocket support
-gem 'uglifier', '~> 2.2.1'
+gem 'uglifier', '~> 2.7.2'
 gem 'mime-types'
 
 
@@ -40,7 +40,7 @@ gem 'erubis'
 gem 'dm-migrations'
 gem 'msfrpc-client'        # Metasploit Integration extension
 #gem 'twitter', '>= 5.0.0' # Twitter Notifications extension
-gem 'rubyzip', '>= 1.0.0'
+gem 'rubyzip', '>= 1.2.1'
 gem 'rubydns', '0.7.0'     # DNS extension
 gem 'geoip'                # geolocation support
 gem 'dm-serializer'        # network extension
