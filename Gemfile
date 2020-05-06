@@ -30,7 +30,7 @@ end
 gem 'ansi'
 gem 'term-ansicolor', :require => 'term/ansicolor'
 gem 'dm-core'
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'data_objects'
 gem 'dm-sqlite-adapter'  # SQLite support
 #gem dm-postgres-adapter # PostgreSQL support
