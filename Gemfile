@@ -8,7 +8,7 @@
 
 gem 'eventmachine'
 gem 'thin'
-gem 'sinatra'
+gem 'sinatra', '>= 4.1.0'
 gem 'rack'
 gem 'em-websocket', '~> 0.3.6' # WebSocket support
 gem 'uglifier', '~> 2.2.1'
