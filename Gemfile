@@ -7,8 +7,8 @@
 #
 
 gem 'eventmachine'
-gem 'thin'
-gem 'sinatra'
+gem 'thin', '>= 1.7.0'
+gem 'sinatra', '>= 2.0.0'
 gem 'rack'
 gem 'em-websocket', '~> 0.3.6' # WebSocket support
 gem 'uglifier', '~> 2.2.1'
@@ -31,7 +31,7 @@ gem 'ansi'
 gem 'term-ansicolor', :require => 'term/ansicolor'
 gem 'dm-core'
 gem 'json'
-gem 'data_objects'
+gem 'data_objects', '>= 0.10.15'
 gem 'dm-sqlite-adapter'  # SQLite support
 #gem dm-postgres-adapter # PostgreSQL support
 #gem dm-mysql-adapter    # MySQL support
