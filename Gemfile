@@ -7,7 +7,7 @@
 #
 
 gem 'eventmachine'
-gem 'thin'
+gem 'thin', '>= 2.0.0'
 gem 'sinatra'
 gem 'rack'
 gem 'em-websocket', '~> 0.3.6' # WebSocket support
